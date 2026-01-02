@@ -26,7 +26,7 @@ text_chunks = text_split(filter_data)
 print(f"Created {len(text_chunks)} text chunks.")
 
 # 3. Initialize Embeddings
-embeddings = download_embeddings()
+embeddings = download_hugging_face_embeddings()
 print("Embedding model loaded successfully.")
 
 # 4. Initialize Pinecone
